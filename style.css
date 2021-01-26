@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: 100vh;
+  background: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: white;
+  position: relative;
+}
+
+.contenitore {
+  height: 90vh;
+  width: 140vh;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+.logo{
+  width: 20vh;
+}
+
+.testo-logo{
+  font-size: 25px;
+  margin: 0;
+  color: #00FF00;
+}
+
+/* Button Bar */
+
+.green-bar {
+  background-color: #00FF00;
+  text-align: center;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Info Monopattino */
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+#user {
+  font-size: 20px;
+}
+
+li  div {
+  font-size: 12px;
+}
+
+.arrow {
+  font-size: 15px;
+}
+
+[title] {
+  border: none;
+  border-radius: 5px;
+}
+
+.half-charge {
+  background-color: #ffca3a;
+  width: 35%;
+}
+
+.full-charge {
+  background-color: #8ac926;
+  width: 60%;
+
+}
+
+.no-charge {
+  background-color: #ff595e;
+  width: 8%;
+}
